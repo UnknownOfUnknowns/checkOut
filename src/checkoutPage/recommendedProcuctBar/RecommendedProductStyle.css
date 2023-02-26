@@ -1,0 +1,24 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #EEF3EE;
+}
+.recommended-card{
+    margin: 30px;
+    color: black;
+    display: flex;
+}
+
+.header-text{
+    color: black;
+    text-decoration: underline;
+}
+
+.card-row-recommended{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}

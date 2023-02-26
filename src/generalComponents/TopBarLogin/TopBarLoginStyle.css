@@ -1,0 +1,154 @@
+.dialog {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    z-index: 100;
+    color: black;
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 1000px;
+    border-radius: 25px;
+}
+
+.dialogContent{
+    display:flex;
+    flex-direction: column;
+}
+
+.loginInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.email-config{
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: thin;
+}
+
+.email-config:hover{
+    border-color: #29DC7B;
+}
+
+.email-config:focus{
+    outline-color: #29DC7B;
+}
+
+.password-config{
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: thin;
+}
+
+.password-config:hover{
+    border-color: #29DC7B;
+}
+
+.password-config:focus{
+    outline-color: #29DC7B;
+}
+
+.show-icon{
+    position: relative;
+    alignment: right;
+    color: black;
+    background-color: white;
+    left: 91%;
+    margin-top: -32px;
+    font-size: 25px;
+}
+
+.loginButton{
+    margin-top: 32px;
+    background-color: #29DC7B;
+    color: white;
+    border: solid 1px #29DC7B;
+    border-radius: 5px;
+    will-change: filter;
+}
+
+.loginButton:hover{
+    filter: drop-shadow(0 0 0.3em #29DC7B);
+    background-color: #29DC7B;
+    font-weight: bold;
+    border: solid 1px #29DC7B;
+}
+
+.show-icon{
+    margin-bottom: 35px;
+}
+
+.signupLink{
+    margin-top: 20px;
+}
+
+.signupLink{
+    cursor: pointer;
+}
+
+/*
+.tilmeld-button{
+
+    background-color: #C4FFB5;
+    border-radius: 25px;
+    width: 7em;
+    will-change: filter;
+}
+
+.tilmeld-button:hover{
+    filter: drop-shadow(0 0 0.5em #C4FFB5);
+    background-color: #C4FFB5;
+    font-weight: bold;
+}
+
+*/
+
+/*
+.loginInputs{
+}
+
+
+
+.loginButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #29DC7B;
+    color: white;
+    border: solid 1px lightgray;
+}
+
+.loginButton:hover{
+    border: none;
+    box-shadow: 0px 4px 4px 0px lightgrey;
+}
+
+.rememberPassword{
+    background-color: white;
+}
+
+
+.password-field {
+    height: 35px;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+
+.show-icon {
+    right: 15%;
+    font-size: 25px;
+    position: relative;
+}
+.passwordBox{
+}
+
+
+ */

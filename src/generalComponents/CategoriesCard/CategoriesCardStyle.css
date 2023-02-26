@@ -1,0 +1,27 @@
+.card {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    color: black;
+    box-shadow: 0px 4px 4px 0px lightgrey;
+}
+
+.card:hover{
+    transition: 0.1s;
+    transform: scale3d(105%,105%,105%);
+    box-shadow: 0px 10px 10px 0px lightgrey;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.clicked{
+    background-color: #29DC7B;
+}
+.category{
+    margin: 0;
+}

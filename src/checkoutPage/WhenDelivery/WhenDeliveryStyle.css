@@ -1,0 +1,49 @@
+.when-body{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.input-containers{
+    gap: 30px;
+}
+
+.date-picker{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 30px;
+
+}
+
+.date-picker::-webkit-calendar-picker-indicator {
+    margin: -100%;
+    padding: 100%;
+    cursor: pointer;
+}
+
+.time-picker{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.time-picker:hover{
+    cursor: pointer;
+}
+
+.time-picker::-webkit-calendar-picker-indicator {
+    margin: -100%;
+    padding: 100%;
+    cursor: pointer;
+}

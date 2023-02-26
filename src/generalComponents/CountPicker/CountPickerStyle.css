@@ -1,0 +1,17 @@
+.counter {
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    border: black 1px solid;
+    align-items: center;
+    height: 30px;
+}
+
+.counter p{
+    margin: 0 15px 0 15px;
+}
+
+.clickable {
+    cursor: pointer;
+}

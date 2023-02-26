@@ -1,0 +1,41 @@
+.navigation-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.when-where{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 0fr 1fr;
+    width: 80%;
+}
+
+.divider {
+    height: 80%;
+    border-width: 1px;
+    border-color: #888888;
+    border-style: solid;
+}
+
+.order-overview{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    border-bottom: 1px black solid;
+
+}
+
